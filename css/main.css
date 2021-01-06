@@ -1,0 +1,467 @@
+a
+{
+	color: #bbf;
+	text-decoration: none;
+}
+
+body
+{
+	background-color: #333;
+	font-family: "Trebuchet MS", Tahoma, Verdana, Helvetica, sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+footer
+{
+	clear: both;
+	padding-top: 1em;
+	text-align: center;
+}
+
+h1 .material-icons
+{
+	font-size: 0.7em !important;
+}
+
+header
+{
+	background-image: linear-gradient(black 80%, rgba(0, 0, 0, 0) 100%);
+	height: 100px;
+	padding: 13px;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+
+header li
+{
+	display: inline;
+}
+
+header ul
+{
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 45%;
+}
+
+header .material-icons
+{
+	font-size: 60px;
+}
+
+header .material-icons:hover,
+.categories-panel a:hover,
+.meta a:hover,
+.selected,
+.top-nav a:hover
+{
+	text-shadow: 0 0 25px #bbf;
+}
+
+html
+{
+	height: 100%;
+}
+
+select.form-control
+{
+	display: inline-block;
+}
+
+.add-episode-button
+{
+	font-size: 32px;
+}
+
+.add-item,
+.album-item,
+.book-item,
+.movie-item,
+.show-item
+{
+	float: left;
+	position: relative;
+	text-align: center;
+	width: 12.5%;
+}
+
+.add-item:hover
+{
+	background-color: #222;
+}
+
+.add-item img
+{
+	opacity: 0;
+	width: 100%;
+}
+
+.add-item img,
+.album-item img,
+.book-item img,
+.movie-item img,
+.show-item img
+{
+	display: block;
+	width: 100%;
+}
+
+.add-item:hover img
+{
+	opacity: 1;
+}
+
+.album-item:hover,
+.book-item:hover,
+.movie-item:hover,
+.show-item:hover
+{
+	background-color: white;
+}
+
+.album-item:hover img,
+.book-item:hover img,
+.movie-item:hover img,
+.show-item:hover img
+{
+	opacity: 0.5;
+}
+
+.album-item span,
+.book-item span,
+.movie-item span,
+.show-item span
+{
+	color: white;
+	display: none;
+	font-size: 1.5vw;
+	left: 50%;
+	position: absolute;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	text-transform: uppercase;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.album-item:hover span,
+.book-item:hover span,
+.movie-item:hover span,
+.show-item:hover span
+{
+	display: block;
+}
+
+.browse-wrapper,
+.item-wrapper
+{
+	color: white;
+	padding-top: 100px;
+}
+
+.btn
+{
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid #bbf;
+	border-radius: 4px;
+	color: white;
+	cursor: pointer;
+	font-size: 18px;
+	padding: 4px;
+	text-shadow: 0 0 25px #bbf;
+	text-transform: uppercase;
+}
+
+.btn:hover
+{
+	background-color: #444;
+}
+
+.btn-delete
+{
+	border-color: #fbb;
+	display: inline-block;
+	margin-top: 18px;
+	text-shadow: 0 0 25px #fbb;
+}
+
+.categories-panel
+{
+	background-color: black;
+	display: none;
+	height: 100%;
+	overflow: auto;
+	position: fixed;
+	width: 200px;
+	z-index: 1;
+}
+
+.categories-panel li
+{
+	margin: 0.3em 0;
+}
+
+.categories-panel ul
+{
+	list-style-type: none;
+	margin-top: 125px;
+}
+
+.form-control
+{
+	border: 1px solid white;
+	border-radius: 5px;
+	background-color: gray;
+	color: white;
+	display: block;
+	font-size: 18px;
+	padding: 3px 3px 3px 3px;
+	width: 400px;
+}
+
+.form-control.text
+{
+	height: 400px;
+	overflow: auto;
+	width: auto;
+}
+
+.form-group
+{
+	padding: 0.5em 0;
+}
+
+.help-block
+{
+	color: red;
+}
+
+.item-wrapper
+{
+	background-color: #222;
+	max-width: 1000px;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 100px 1em 0 1em;
+}
+
+.item-wrapper .browse-wrapper
+{
+	padding: 0;
+}
+
+.item-wrapper .browse-wrapper .movie-item,
+.item-wrapper .browse-wrapper .show-item
+{
+	float: left;
+}
+
+.item-wrapper .movie-item,
+.item-wrapper .show-item
+{
+	float: none;
+	width: 250px;
+}
+
+.logo
+{
+	height: 64px;
+	margin: 0 auto;
+}
+
+.material-icons
+{
+	color: #bbf;
+}
+
+.meta
+{
+	font-size: 14px;
+	margin-right: 16px;
+}
+
+.meta a,
+#categories-button
+{
+	cursor: pointer;
+}
+
+.meta-wrapper
+{
+	font-size: 21px;
+	margin-right: 25px;
+}
+
+.meta-wrapper .material-icons
+{
+	font-size: 12px;
+}
+
+.poster
+{
+	box-shadow: 0 0 15px white;
+	float: left;
+	margin: 30px;
+	width: 250px;
+}
+
+.season-list
+{
+	font-size: 21px;
+	list-style: none;
+	margin: 1em, 0, 0, 0;
+	padding: 0;
+}
+
+.top-nav
+{
+	padding-right: 60px;
+	text-align: right;
+}
+
+.top-nav #categories-button
+{
+	float: left;
+}
+
+.view-season-button
+{
+	border: 2px solid #bbf;
+	border-radius: 6px;
+	color: white;
+	display: inline-block;
+	font-size: 24px;
+	margin: 4px;
+	padding: 7px;
+	text-shadow: 0 0 12px #bbf;
+	text-transform: uppercase;
+}
+
+.view-season-button:hover
+{
+	background-color: #444;
+}
+
+.watch-episode
+{
+	background-color: #111;
+	display: inline-block;
+	width: 750px;
+	padding: 4px;
+}
+
+.watch-episode:hover
+{
+	background-color: #444;
+}
+
+.watch-episode span
+{
+	float: right;
+}
+
+#player-wrapper
+{
+	display: inline-block;
+	left: 50%;
+	position: fixed;
+	text-align: center;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	z-index: 3;
+}
+
+#player-wrapper.show
+{
+	visibility: visible;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s;
+}
+
+#player-wrapper a
+{
+	background: #bbf;
+	border-radius: 4px 4px 0 0;
+	color: white;
+	display: block;
+	padding: 2px;
+}
+
+#searchInput
+{
+	border: 1px solid white;
+	border-radius: 5px;
+	background-color: gray;
+	background-image: url('../img/search.svg');
+	background-repeat: no-repeat;
+	background-size: 28px 28px;
+	color: white;
+	display: block;
+	float: right;
+	font-size: 18px;
+	margin: 19px 30px 0 0;
+	padding: 3px 3px 3px 30px;
+	width: 25%;
+}
+
+#searchInput::placeholder
+{
+	color: silver;
+}
+
+#searchInput::-ms-input-placeholder
+{
+	color: silver;
+}
+
+#watch
+{
+	border: 3px solid #bbf;
+	border-radius: 12px;
+	color: white;
+	float: right;
+	font-size: 48px;
+	margin: 30px;
+	padding: 14px;
+	text-shadow: 0 0 25px #bbf;
+	text-transform: uppercase;
+}
+
+#watch:hover
+{
+	background-color: #444;
+}
+
+#watch .material-icons
+{
+	font-size: 32px;
+}
+
+@-webkit-keyframes fadeIn
+{
+	from
+	{
+		opacity: 0;
+	}
+	to
+	{
+		opacity: 1;
+	}
+}
+
+@keyFrames fadeIn
+{
+	from
+	{
+		opacity: 0;
+	}
+	to
+	{
+		opacity: 1;
+	}
+}
